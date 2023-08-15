@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 281,
+        "question": "Gina has two bank accounts. Each account has a quarter of the balance in Betty's account. If Betty's account balance is $3,456, what is the combined balance of both Gina's accounts?",
+        "answer": "1728",
+        "log_difference": 4.712695121765137
+    },
+    {
+        "dataset_idx": 4470,
+        "question": "Tim buys a cabinet for $1200 and gets a 15% discount.  How much did he pay?",
+        "answer": "1020",
+        "log_difference": 3.5531246662139893
+    },
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 4.266469955444336
+    },
+    {
+        "dataset_idx": 1932,
+        "question": "To get admission into a school party, each football team member must pay $40. If there are 60 players on the football team and the entire team attends 8 such parties in a year, calculate the total amount of money collected in the 8 parties.",
+        "answer": "19200",
+        "log_difference": 4.18472957611084
+    },
+    {
+        "dataset_idx": 1311,
+        "question": "I bought a TV for $1700 excluding tax. What is the price of the television when calculating 15% of the value-added tax?",
+        "answer": "1955",
+        "log_difference": 4.966152191162109
+    },
+    {
+        "dataset_idx": 5858,
+        "question": "Marion\u2019s bike cost $356. Stephanie\u2019s bike is worth twice as much. What is the total price of their bikes?",
+        "answer": "1068",
+        "log_difference": 4.746572494506836
+    },
+    {
+        "dataset_idx": 3120,
+        "question": "There are 192 soaps in a package. They put them in 2 big boxes. If each box contains 6 packages, how much soap do the 2 boxes contain in total?",
+        "answer": "2304",
+        "log_difference": 4.974708557128906
+    },
+    {
+        "dataset_idx": 556,
+        "question": "Roberto recently received a 20% raise from his previous salary, which was already 40% higher than his starting salary. If Roberto's starting salary was $80,000, what is his current salary?",
+        "answer": "134400",
+        "log_difference": 4.699920654296875
+    }
+]

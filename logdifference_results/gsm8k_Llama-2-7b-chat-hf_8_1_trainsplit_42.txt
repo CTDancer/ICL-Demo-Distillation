@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 7017,
+        "question": "Mrs. Oaklyn buys handmade rugs at $40 each and sells them at $60 each. If she bought 20 rugs, calculate the profit she will make from selling the rugs.",
+        "answer": "400",
+        "log_difference": 11.16642951965332
+    },
+    {
+        "dataset_idx": 316,
+        "question": "The selling price of a bicycle that had sold for $220 last year was increased by 15%. What is the new price?",
+        "answer": "253",
+        "log_difference": 14.50585651397705
+    },
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 14.797937393188477
+    },
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 16.952957153320312
+    },
+    {
+        "dataset_idx": 1717,
+        "question": "A store sold a certain brand of jeans for $40. They only have few pairs of jeans left so they decided to give 10% discount on every two pairs of jeans bought by a customer at any one time. How much will a customer pay for 3 pairs of jeans?",
+        "answer": "112",
+        "log_difference": 14.86236572265625
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 17.525955200195312
+    },
+    {
+        "dataset_idx": 538,
+        "question": "A luxury bag costs $3000. A reseller wants to get a 15% profit. How much should she sell the bag?",
+        "answer": "3450",
+        "log_difference": 13.704130172729492
+    },
+    {
+        "dataset_idx": 556,
+        "question": "Roberto recently received a 20% raise from his previous salary, which was already 40% higher than his starting salary. If Roberto's starting salary was $80,000, what is his current salary?",
+        "answer": "134400",
+        "log_difference": 14.20523452758789
+    }
+]

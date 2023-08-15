@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 1781,
+        "question": "A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?",
+        "answer": "442",
+        "log_difference": 15.800165176391602
+    },
+    {
+        "dataset_idx": 2374,
+        "question": "In a factory, there are 300 employees. 200 of them earn $12 per hour. Of the rest, 40 of them earn $14 per hour. All others earn $17 per hour. What is the cost to employ all these people for one 8-hour long shift?",
+        "answer": "31840",
+        "log_difference": 13.188749313354492
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 16.73386001586914
+    },
+    {
+        "dataset_idx": 1717,
+        "question": "A store sold a certain brand of jeans for $40. They only have few pairs of jeans left so they decided to give 10% discount on every two pairs of jeans bought by a customer at any one time. How much will a customer pay for 3 pairs of jeans?",
+        "answer": "112",
+        "log_difference": 15.661316871643066
+    },
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 16.864154815673828
+    },
+    {
+        "dataset_idx": 556,
+        "question": "Roberto recently received a 20% raise from his previous salary, which was already 40% higher than his starting salary. If Roberto's starting salary was $80,000, what is his current salary?",
+        "answer": "134400",
+        "log_difference": 13.804128646850586
+    },
+    {
+        "dataset_idx": 3327,
+        "question": "Tom spends $250 to buy gems in a game he plays.  The game gives 100 gems for each dollar you spend.  Since he bought so many gems he got a 20% bonus of more gems. How many gems did he end up with?",
+        "answer": "30000",
+        "log_difference": 14.72888469696045
+    },
+    {
+        "dataset_idx": 3784,
+        "question": "Sally needs to make a tablecloth that measures 102 inches by 54 inches. She also needs to make 8 napkins that are 6 by 7 inches. How many square inches of material will Sally need to make the tablecloth and the 8 napkins?",
+        "answer": "5844",
+        "log_difference": 13.553054809570312
+    }
+]

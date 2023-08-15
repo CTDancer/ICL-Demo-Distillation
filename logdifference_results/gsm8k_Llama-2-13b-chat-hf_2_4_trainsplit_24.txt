@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 3201,
+        "question": "A church has 100 members who've volunteered to bake cookies for the homeless in their local town. If each member baked 10 sheets of cookies, and each sheet has 16 cookies, calculate the total number of cookies the church members baked?",
+        "answer": "16000",
+        "log_difference": 17.553783416748047
+    },
+    {
+        "dataset_idx": 5194,
+        "question": "Sean designs and sells patches.  He orders his patches in a unit of 100 and is charged $1.25 per patch.  If he turns around and sells all 100 patches for $12.00 each, what is his net profit?",
+        "answer": "1075",
+        "log_difference": 15.576047897338867
+    },
+    {
+        "dataset_idx": 7190,
+        "question": "A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?",
+        "answer": "208",
+        "log_difference": 15.256306648254395
+    },
+    {
+        "dataset_idx": 1919,
+        "question": "Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?",
+        "answer": "56000",
+        "log_difference": 14.386795043945312
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 15.079195976257324
+    },
+    {
+        "dataset_idx": 3365,
+        "question": "John buys 3 dress shirts.  They sell for $20 each.  He also has to pay 10% tax on everything.  How much did he pay in total?",
+        "answer": "66",
+        "log_difference": 14.960338592529297
+    },
+    {
+        "dataset_idx": 7278,
+        "question": "Mrs. Garcia pays her insurance quarterly at $378. How much does she pay in a year for her insurance?",
+        "answer": "1512",
+        "log_difference": 14.62922191619873
+    },
+    {
+        "dataset_idx": 3844,
+        "question": "Elizabeth wants to buy the steak knives from a bridal registry as a wedding gift.  The couple registered for 2 steak knife sets and each set contains 4 steak knives.  If Elizabeth buys both sets and they cost $80.00 per set, how much does each single steak knife cost?",
+        "answer": "20",
+        "log_difference": 14.112218856811523
+    }
+]

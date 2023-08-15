@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 6111,
+        "question": "Tara's taking a road trip for the weekend.  She drives for two days, stopping to fill up her gas tank each time from empty to full when she needs it.  She visits 4 different gas stations in total, with the price of gas being $3, $3.50, $4, and $4.50 respectively at each.  If Tara's car has a 12-gallon tank, how much does she spend on gas for her road trip?",
+        "answer": "180",
+        "log_difference": 2.7065978050231934
+    },
+    {
+        "dataset_idx": 1674,
+        "question": "John buys 1.5 ounces of silver and twice as much gold.  The silver costs $20 per ounce.  The gold is 50 times more expensive per ounce.  How much does he spend on everything?",
+        "answer": "3030",
+        "log_difference": 3.228827476501465
+    },
+    {
+        "dataset_idx": 3190,
+        "question": "Neil charges $5.00 to trim up each boxwood.  He charges $15.00 to trim it into a fancy shape.  The customer wants the entire 30 boxwood hedge trimmed up.  He has also asked for 4 specific boxwoods shaped into spheres.  How much will Neil charge?",
+        "answer": "210",
+        "log_difference": 3.992696762084961
+    },
+    {
+        "dataset_idx": 4425,
+        "question": "Mary Anne drinks 1/5 of a bottle of sparkling water every night at dinner.  If each bottle costs her $2.00, how much does she spend on sparkling water every year?",
+        "answer": "146",
+        "log_difference": 2.6772022247314453
+    },
+    {
+        "dataset_idx": 1919,
+        "question": "Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?",
+        "answer": "56000",
+        "log_difference": 3.464608669281006
+    },
+    {
+        "dataset_idx": 402,
+        "question": "A new movie gets released and makes $120 million in the box office for its opening weekend.  It ends up making 3.5 times that much during its entire run.  If the production company gets to keep 60%, how much profit did they make if the movie cost $60 million to produce?",
+        "answer": "192000000",
+        "log_difference": 4.309564590454102
+    },
+    {
+        "dataset_idx": 6757,
+        "question": "Jerry files a lawsuit against the convenience store where he works and slipped and fell. He's asking for damages for loss of a $50,000 annual salary for 30 years, $200,000 in medical bills, and punitive damages equal to triple the medical and salary damages. If he gets 80% of what he's asking for, for much money does he get?",
+        "answer": "5440000",
+        "log_difference": 7.159872055053711
+    },
+    {
+        "dataset_idx": 7135,
+        "question": "Jan buys 5 dozen roses.  Each rose cost $6.  Since he bought so many he only needs to pay 80%.  How much did he pay?",
+        "answer": "288",
+        "log_difference": 3.73745059967041
+    }
+]

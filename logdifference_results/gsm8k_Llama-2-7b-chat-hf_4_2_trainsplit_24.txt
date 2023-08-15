@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 1781,
+        "question": "A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?",
+        "answer": "442",
+        "log_difference": 15.22406005859375
+    },
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 12.30278205871582
+    },
+    {
+        "dataset_idx": 316,
+        "question": "The selling price of a bicycle that had sold for $220 last year was increased by 15%. What is the new price?",
+        "answer": "253",
+        "log_difference": 15.410486221313477
+    },
+    {
+        "dataset_idx": 5348,
+        "question": "There are 12 inches to a foot. Blossom measures her room and finds that it is exactly 10 feet long in each direction. In square inches, what is the area of her room?",
+        "answer": "14400",
+        "log_difference": 13.682878494262695
+    },
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 17.076915740966797
+    },
+    {
+        "dataset_idx": 1717,
+        "question": "A store sold a certain brand of jeans for $40. They only have few pairs of jeans left so they decided to give 10% discount on every two pairs of jeans bought by a customer at any one time. How much will a customer pay for 3 pairs of jeans?",
+        "answer": "112",
+        "log_difference": 15.377360343933105
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 16.018733978271484
+    },
+    {
+        "dataset_idx": 2374,
+        "question": "In a factory, there are 300 employees. 200 of them earn $12 per hour. Of the rest, 40 of them earn $14 per hour. All others earn $17 per hour. What is the cost to employ all these people for one 8-hour long shift?",
+        "answer": "31840",
+        "log_difference": 14.351176261901855
+    }
+]

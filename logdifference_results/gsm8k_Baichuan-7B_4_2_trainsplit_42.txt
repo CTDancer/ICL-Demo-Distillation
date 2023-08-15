@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 3308,
+        "question": "Jason worked for 9 years as a bartender and 3 years and six months as a manager. How many months of work experience does he have total?",
+        "answer": "150",
+        "log_difference": 3.173901081085205
+    },
+    {
+        "dataset_idx": 6111,
+        "question": "Tara's taking a road trip for the weekend.  She drives for two days, stopping to fill up her gas tank each time from empty to full when she needs it.  She visits 4 different gas stations in total, with the price of gas being $3, $3.50, $4, and $4.50 respectively at each.  If Tara's car has a 12-gallon tank, how much does she spend on gas for her road trip?",
+        "answer": "180",
+        "log_difference": 2.715540885925293
+    },
+    {
+        "dataset_idx": 6757,
+        "question": "Jerry files a lawsuit against the convenience store where he works and slipped and fell. He's asking for damages for loss of a $50,000 annual salary for 30 years, $200,000 in medical bills, and punitive damages equal to triple the medical and salary damages. If he gets 80% of what he's asking for, for much money does he get?",
+        "answer": "5440000",
+        "log_difference": 3.7332324981689453
+    },
+    {
+        "dataset_idx": 3487,
+        "question": "Johnny makes his signature crab dish 40 times a day.  It uses 1.5 pounds of crab meat.  Crab meat sells for $8 per pound.  How much does he spend in a week if he is closed 3 days a week?",
+        "answer": "1920",
+        "log_difference": 3.2956628799438477
+    },
+    {
+        "dataset_idx": 1919,
+        "question": "Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?",
+        "answer": "56000",
+        "log_difference": 4.755209922790527
+    },
+    {
+        "dataset_idx": 7064,
+        "question": "John can play 200 beats per minute.  If he plays 2 hours a day for 3 days how many beats does he play?",
+        "answer": "72000",
+        "log_difference": 3.4614646434783936
+    },
+    {
+        "dataset_idx": 1674,
+        "question": "John buys 1.5 ounces of silver and twice as much gold.  The silver costs $20 per ounce.  The gold is 50 times more expensive per ounce.  How much does he spend on everything?",
+        "answer": "3030",
+        "log_difference": 5.496233940124512
+    },
+    {
+        "dataset_idx": 6732,
+        "question": "Nancy's ex owes her child support. He's supposed to pay 30% of his income each year. For 3 years, he made $30,000/year, then he got a 20% raise for the next four years. If he's only ever paid $1,200, how much does he owe her?",
+        "answer": "69000",
+        "log_difference": 4.664032936096191
+    }
+]

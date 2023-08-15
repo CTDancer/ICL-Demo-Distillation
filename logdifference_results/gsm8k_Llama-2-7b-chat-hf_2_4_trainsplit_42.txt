@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 16.871082305908203
+    },
+    {
+        "dataset_idx": 1781,
+        "question": "A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?",
+        "answer": "442",
+        "log_difference": 15.626123428344727
+    },
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 14.335016250610352
+    },
+    {
+        "dataset_idx": 7471,
+        "question": "Janet, a third grade teacher, is picking up the sack lunch order from a local deli for the field trip she is taking her class on. There are 35 children in her class, 5 volunteer chaperones, and herself. She she also ordered three additional sack lunches, just in case there was a problem. Each sack lunch costs $7. How much do all the lunches cost in total?",
+        "answer": "308",
+        "log_difference": 13.637134552001953
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 16.46463394165039
+    },
+    {
+        "dataset_idx": 1717,
+        "question": "A store sold a certain brand of jeans for $40. They only have few pairs of jeans left so they decided to give 10% discount on every two pairs of jeans bought by a customer at any one time. How much will a customer pay for 3 pairs of jeans?",
+        "answer": "112",
+        "log_difference": 15.910253524780273
+    },
+    {
+        "dataset_idx": 556,
+        "question": "Roberto recently received a 20% raise from his previous salary, which was already 40% higher than his starting salary. If Roberto's starting salary was $80,000, what is his current salary?",
+        "answer": "134400",
+        "log_difference": 14.718384742736816
+    },
+    {
+        "dataset_idx": 6466,
+        "question": "It\u2019s spring! The gardener at Parc Municipal orders flowers. He takes 250 tulips, 375 carnations and 320 roses. Each flower is sold for 2\u20ac. Calculate the total expenses.",
+        "answer": "1890",
+        "log_difference": 14.010138511657715
+    }
+]

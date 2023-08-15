@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 281,
+        "question": "Gina has two bank accounts. Each account has a quarter of the balance in Betty's account. If Betty's account balance is $3,456, what is the combined balance of both Gina's accounts?",
+        "answer": "1728",
+        "log_difference": 4.712695121765137
+    },
+    {
+        "dataset_idx": 4470,
+        "question": "Tim buys a cabinet for $1200 and gets a 15% discount.  How much did he pay?",
+        "answer": "1020",
+        "log_difference": 3.4268319606781006
+    },
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 4.266469955444336
+    },
+    {
+        "dataset_idx": 7278,
+        "question": "Mrs. Garcia pays her insurance quarterly at $378. How much does she pay in a year for her insurance?",
+        "answer": "1512",
+        "log_difference": 5.010993003845215
+    },
+    {
+        "dataset_idx": 5858,
+        "question": "Marion\u2019s bike cost $356. Stephanie\u2019s bike is worth twice as much. What is the total price of their bikes?",
+        "answer": "1068",
+        "log_difference": 4.55830717086792
+    },
+    {
+        "dataset_idx": 5194,
+        "question": "Sean designs and sells patches.  He orders his patches in a unit of 100 and is charged $1.25 per patch.  If he turns around and sells all 100 patches for $12.00 each, what is his net profit?",
+        "answer": "1075",
+        "log_difference": 4.170170783996582
+    },
+    {
+        "dataset_idx": 3120,
+        "question": "There are 192 soaps in a package. They put them in 2 big boxes. If each box contains 6 packages, how much soap do the 2 boxes contain in total?",
+        "answer": "2304",
+        "log_difference": 4.635628700256348
+    },
+    {
+        "dataset_idx": 556,
+        "question": "Roberto recently received a 20% raise from his previous salary, which was already 40% higher than his starting salary. If Roberto's starting salary was $80,000, what is his current salary?",
+        "answer": "134400",
+        "log_difference": 4.164259910583496
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 6111,
+        "question": "Tara's taking a road trip for the weekend.  She drives for two days, stopping to fill up her gas tank each time from empty to full when she needs it.  She visits 4 different gas stations in total, with the price of gas being $3, $3.50, $4, and $4.50 respectively at each.  If Tara's car has a 12-gallon tank, how much does she spend on gas for her road trip?",
+        "answer": "180",
+        "log_difference": 2.715540885925293
+    },
+    {
+        "dataset_idx": 3308,
+        "question": "Jason worked for 9 years as a bartender and 3 years and six months as a manager. How many months of work experience does he have total?",
+        "answer": "150",
+        "log_difference": 3.3726305961608887
+    },
+    {
+        "dataset_idx": 3487,
+        "question": "Johnny makes his signature crab dish 40 times a day.  It uses 1.5 pounds of crab meat.  Crab meat sells for $8 per pound.  How much does he spend in a week if he is closed 3 days a week?",
+        "answer": "1920",
+        "log_difference": 3.2850470542907715
+    },
+    {
+        "dataset_idx": 2798,
+        "question": "John works 12 hours every other day.  He gets a 30% raise from his former $20 an hour job.  How much does he make in a 30 day month?",
+        "answer": "4680",
+        "log_difference": 4.347616195678711
+    },
+    {
+        "dataset_idx": 1919,
+        "question": "Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?",
+        "answer": "56000",
+        "log_difference": 4.70963191986084
+    },
+    {
+        "dataset_idx": 218,
+        "question": "Ravi has some coins. He has 2 more quarters than nickels and 4 more dimes than quarters. If he has 6 nickels, how much money does he have?",
+        "answer": "350",
+        "log_difference": 3.1083688735961914
+    },
+    {
+        "dataset_idx": 1674,
+        "question": "John buys 1.5 ounces of silver and twice as much gold.  The silver costs $20 per ounce.  The gold is 50 times more expensive per ounce.  How much does he spend on everything?",
+        "answer": "3030",
+        "log_difference": 5.372373580932617
+    },
+    {
+        "dataset_idx": 3190,
+        "question": "Neil charges $5.00 to trim up each boxwood.  He charges $15.00 to trim it into a fancy shape.  The customer wants the entire 30 boxwood hedge trimmed up.  He has also asked for 4 specific boxwoods shaped into spheres.  How much will Neil charge?",
+        "answer": "210",
+        "log_difference": 4.228455066680908
+    }
+]

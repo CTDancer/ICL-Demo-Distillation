@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 12.30278205871582
+    },
+    {
+        "dataset_idx": 1781,
+        "question": "A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?",
+        "answer": "442",
+        "log_difference": 15.893088340759277
+    },
+    {
+        "dataset_idx": 316,
+        "question": "The selling price of a bicycle that had sold for $220 last year was increased by 15%. What is the new price?",
+        "answer": "253",
+        "log_difference": 15.192176818847656
+    },
+    {
+        "dataset_idx": 5424,
+        "question": "A bead shop sells one set of crystal beads at $9 each and one set of metal beads at $10 each. Nancy buys one set of crystal beads and two sets of metal beads. How much does she spend in all?",
+        "answer": "29",
+        "log_difference": 12.499977111816406
+    },
+    {
+        "dataset_idx": 1717,
+        "question": "A store sold a certain brand of jeans for $40. They only have few pairs of jeans left so they decided to give 10% discount on every two pairs of jeans bought by a customer at any one time. How much will a customer pay for 3 pairs of jeans?",
+        "answer": "112",
+        "log_difference": 15.58248233795166
+    },
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 16.965185165405273
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 15.812009811401367
+    },
+    {
+        "dataset_idx": 1519,
+        "question": "Sandy earns $15 per hour. She worked 10 hours on Friday with her best friend, 6 hours on Saturday alone and 14 hours on Sunday with her other co-workers. How much money did Sandy earn in all on Friday, Saturday and Sunday?",
+        "answer": "450",
+        "log_difference": 11.75045108795166
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 316,
+        "question": "The selling price of a bicycle that had sold for $220 last year was increased by 15%. What is the new price?",
+        "answer": "253",
+        "log_difference": 13.545404434204102
+    },
+    {
+        "dataset_idx": 2374,
+        "question": "In a factory, there are 300 employees. 200 of them earn $12 per hour. Of the rest, 40 of them earn $14 per hour. All others earn $17 per hour. What is the cost to employ all these people for one 8-hour long shift?",
+        "answer": "31840",
+        "log_difference": 13.339515686035156
+    },
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 16.96984100341797
+    },
+    {
+        "dataset_idx": 1781,
+        "question": "A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?",
+        "answer": "442",
+        "log_difference": 16.03404998779297
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 15.76108169555664
+    },
+    {
+        "dataset_idx": 1717,
+        "question": "A store sold a certain brand of jeans for $40. They only have few pairs of jeans left so they decided to give 10% discount on every two pairs of jeans bought by a customer at any one time. How much will a customer pay for 3 pairs of jeans?",
+        "answer": "112",
+        "log_difference": 15.097286224365234
+    },
+    {
+        "dataset_idx": 556,
+        "question": "Roberto recently received a 20% raise from his previous salary, which was already 40% higher than his starting salary. If Roberto's starting salary was $80,000, what is his current salary?",
+        "answer": "134400",
+        "log_difference": 15.349604606628418
+    },
+    {
+        "dataset_idx": 1352,
+        "question": "A fan can create an airflow of 10 liters per second. If the fan works for 10 minutes each day, calculate the amount of airflow it will create in one week.",
+        "answer": "42000",
+        "log_difference": 13.932994842529297
+    }
+]

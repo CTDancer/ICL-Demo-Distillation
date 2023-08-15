@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 1012,
+        "question": "Brian is a real estate agent. He makes a 2% commission on each sale. During June, he sold three houses. The houses sold for $157,000, $499,000, and $125,000. What was Brian\u2019s total commission on these three sales?",
+        "answer": "15620",
+        "log_difference": 3.4490814208984375
+    },
+    {
+        "dataset_idx": 6732,
+        "question": "Nancy's ex owes her child support. He's supposed to pay 30% of his income each year. For 3 years, he made $30,000/year, then he got a 20% raise for the next four years. If he's only ever paid $1,200, how much does he owe her?",
+        "answer": "69000",
+        "log_difference": 5.059714317321777
+    },
+    {
+        "dataset_idx": 1932,
+        "question": "To get admission into a school party, each football team member must pay $40. If there are 60 players on the football team and the entire team attends 8 such parties in a year, calculate the total amount of money collected in the 8 parties.",
+        "answer": "19200",
+        "log_difference": 5.471452713012695
+    },
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 4.380474090576172
+    },
+    {
+        "dataset_idx": 278,
+        "question": "The price of a home is $98 per square foot (sq ft).  The house is 2,400 sq ft and the barn out back is 1,000 sq ft.  How much is this property?",
+        "answer": "333200",
+        "log_difference": 5.0591325759887695
+    },
+    {
+        "dataset_idx": 4307,
+        "question": "Mr. Maximilian has a rental building that he collects rent from every month. The number of units in the building is 100. If the building is 3/4 occupied for a whole year, and each resident of the building pays a rent of $400, calculate the amount of money Mr. Maximilian receives in that year.",
+        "answer": "360000",
+        "log_difference": 6.053743839263916
+    },
+    {
+        "dataset_idx": 1311,
+        "question": "I bought a TV for $1700 excluding tax. What is the price of the television when calculating 15% of the value-added tax?",
+        "answer": "1955",
+        "log_difference": 6.174781799316406
+    },
+    {
+        "dataset_idx": 5858,
+        "question": "Marion\u2019s bike cost $356. Stephanie\u2019s bike is worth twice as much. What is the total price of their bikes?",
+        "answer": "1068",
+        "log_difference": 4.238615036010742
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 3201,
+        "question": "A church has 100 members who've volunteered to bake cookies for the homeless in their local town. If each member baked 10 sheets of cookies, and each sheet has 16 cookies, calculate the total number of cookies the church members baked?",
+        "answer": "16000",
+        "log_difference": 17.553783416748047
+    },
+    {
+        "dataset_idx": 5194,
+        "question": "Sean designs and sells patches.  He orders his patches in a unit of 100 and is charged $1.25 per patch.  If he turns around and sells all 100 patches for $12.00 each, what is his net profit?",
+        "answer": "1075",
+        "log_difference": 15.576047897338867
+    },
+    {
+        "dataset_idx": 7190,
+        "question": "A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?",
+        "answer": "208",
+        "log_difference": 17.182079315185547
+    },
+    {
+        "dataset_idx": 335,
+        "question": "Eve wants to buy her 3 nieces cooking gear that's made for kids.  The hand mitts cost $14.00 and the apron is $16.00.  A set of 3 cooking utensils is $10.00 and a small knife is twice the amount of the utensils.  The store is offering a 25% off sale on all cooking gear.  How much will Eve spend on the gifts?",
+        "answer": "135",
+        "log_difference": 14.486438751220703
+    },
+    {
+        "dataset_idx": 7278,
+        "question": "Mrs. Garcia pays her insurance quarterly at $378. How much does she pay in a year for her insurance?",
+        "answer": "1512",
+        "log_difference": 14.209396362304688
+    },
+    {
+        "dataset_idx": 5780,
+        "question": "Travis wants to fly to Australia. The regular tickets cost about $2000. As Travis is a student, he will get a 30% discount on this price. How much does he need to pay for his ticket?",
+        "answer": "1400",
+        "log_difference": 13.511569023132324
+    },
+    {
+        "dataset_idx": 93,
+        "question": "John orders food for a massive restaurant.  He orders 1000 pounds of beef for $8 per pound.  He also orders twice that much chicken at $3 per pound.  How much did everything cost?",
+        "answer": "14000",
+        "log_difference": 15.496824264526367
+    },
+    {
+        "dataset_idx": 4799,
+        "question": "A seminar is offered to a school for their teachers. The regular seminar fee is $150 but they offer a 5% discount if they register 2 days before the scheduled seminar. The school registered 10 teachers for the seminar a week before the schedule and it also released a $10 food allowance for each of the teachers. How much did the school spend in all?",
+        "answer": "1525",
+        "log_difference": 14.657344818115234
+    }
+]

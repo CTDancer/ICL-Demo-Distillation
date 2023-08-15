@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 7190,
+        "question": "A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?",
+        "answer": "208",
+        "log_difference": 13.986103057861328
+    },
+    {
+        "dataset_idx": 5194,
+        "question": "Sean designs and sells patches.  He orders his patches in a unit of 100 and is charged $1.25 per patch.  If he turns around and sells all 100 patches for $12.00 each, what is his net profit?",
+        "answer": "1075",
+        "log_difference": 13.824972152709961
+    },
+    {
+        "dataset_idx": 5725,
+        "question": "Tim buys a book of esoteric words.  He learns 10 words from it a day.  In 2 years the book has increased the number of words he knows by 50%.  How many words did he know originally?",
+        "answer": "14600",
+        "log_difference": 13.718877792358398
+    },
+    {
+        "dataset_idx": 7239,
+        "question": "Scout delivers groceries on the weekends.  His base pay is $10.00 an hour.  He also earns a $5.00 tip per customer that he delivers groceries to.  On Saturday he worked 4 hours and delivered groceries to 5 people.  Sunday he worked 5 hours and delivered groceries to 8 people.  How much did he make over the weekend?",
+        "answer": "155",
+        "log_difference": 13.560111999511719
+    },
+    {
+        "dataset_idx": 5780,
+        "question": "Travis wants to fly to Australia. The regular tickets cost about $2000. As Travis is a student, he will get a 30% discount on this price. How much does he need to pay for his ticket?",
+        "answer": "1400",
+        "log_difference": 13.111642837524414
+    },
+    {
+        "dataset_idx": 3201,
+        "question": "A church has 100 members who've volunteered to bake cookies for the homeless in their local town. If each member baked 10 sheets of cookies, and each sheet has 16 cookies, calculate the total number of cookies the church members baked?",
+        "answer": "16000",
+        "log_difference": 13.081376075744629
+    },
+    {
+        "dataset_idx": 335,
+        "question": "Eve wants to buy her 3 nieces cooking gear that's made for kids.  The hand mitts cost $14.00 and the apron is $16.00.  A set of 3 cooking utensils is $10.00 and a small knife is twice the amount of the utensils.  The store is offering a 25% off sale on all cooking gear.  How much will Eve spend on the gifts?",
+        "answer": "135",
+        "log_difference": 12.960050582885742
+    },
+    {
+        "dataset_idx": 3844,
+        "question": "Elizabeth wants to buy the steak knives from a bridal registry as a wedding gift.  The couple registered for 2 steak knife sets and each set contains 4 steak knives.  If Elizabeth buys both sets and they cost $80.00 per set, how much does each single steak knife cost?",
+        "answer": "20",
+        "log_difference": 12.949712753295898
+    }
+]

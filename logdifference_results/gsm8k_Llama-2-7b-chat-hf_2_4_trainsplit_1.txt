@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 1781,
+        "question": "A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?",
+        "answer": "442",
+        "log_difference": 15.800165176391602
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 14.059602737426758
+    },
+    {
+        "dataset_idx": 2374,
+        "question": "In a factory, there are 300 employees. 200 of them earn $12 per hour. Of the rest, 40 of them earn $14 per hour. All others earn $17 per hour. What is the cost to employ all these people for one 8-hour long shift?",
+        "answer": "31840",
+        "log_difference": 13.188749313354492
+    },
+    {
+        "dataset_idx": 2790,
+        "question": "Four small panda bears and five bigger panda bears eat 25 pounds and 40 pounds of fresh bamboo sprouts every day, respectively. How many pounds of bamboo do the 9 pandas eat in a week?",
+        "answer": "2100",
+        "log_difference": 12.71850872039795
+    },
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 16.92889976501465
+    },
+    {
+        "dataset_idx": 4398,
+        "question": "An adult panda can eat 138 pounds of bamboo each day. A baby panda can eat 50 pounds of bamboo a day.  How many pounds of bamboo will the pandas eat in a week?",
+        "answer": "1316",
+        "log_difference": 14.138023376464844
+    },
+    {
+        "dataset_idx": 5288,
+        "question": "Grandma wants to order 5 personalized backpacks for each of her grandchildren's first days of school.  The backpacks are 20% off of $20.00 and having their names monogrammed on the back pack will cost $12.00 each.  How much will the backpacks cost?",
+        "answer": "140",
+        "log_difference": 13.97373104095459
+    },
+    {
+        "dataset_idx": 3784,
+        "question": "Sally needs to make a tablecloth that measures 102 inches by 54 inches. She also needs to make 8 napkins that are 6 by 7 inches. How many square inches of material will Sally need to make the tablecloth and the 8 napkins?",
+        "answer": "5844",
+        "log_difference": 13.790975570678711
+    }
+]

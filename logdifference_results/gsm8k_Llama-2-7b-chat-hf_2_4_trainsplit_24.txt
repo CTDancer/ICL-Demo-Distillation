@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 1781,
+        "question": "A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?",
+        "answer": "442",
+        "log_difference": 15.22406005859375
+    },
+    {
+        "dataset_idx": 2790,
+        "question": "Four small panda bears and five bigger panda bears eat 25 pounds and 40 pounds of fresh bamboo sprouts every day, respectively. How many pounds of bamboo do the 9 pandas eat in a week?",
+        "answer": "2100",
+        "log_difference": 13.56352710723877
+    },
+    {
+        "dataset_idx": 5847,
+        "question": "Ursula earns $8.50 an hour working in a restaurant. She works 8 hours a day. If she works 20 days a month, determine her annual salary.",
+        "answer": "16320",
+        "log_difference": 12.30278205871582
+    },
+    {
+        "dataset_idx": 4219,
+        "question": "James listens to super-fast music.  It is 200 beats per minute.  He listens to 2 hours of music a day.  How many beats does he hear per week?",
+        "answer": "168000",
+        "log_difference": 12.123982429504395
+    },
+    {
+        "dataset_idx": 1272,
+        "question": "Ruiz receives a monthly salary of $500. If he received a 6% raise, how much will be Ruiz's new salary?",
+        "answer": "530",
+        "log_difference": 16.61835479736328
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 16.359128952026367
+    },
+    {
+        "dataset_idx": 1717,
+        "question": "A store sold a certain brand of jeans for $40. They only have few pairs of jeans left so they decided to give 10% discount on every two pairs of jeans bought by a customer at any one time. How much will a customer pay for 3 pairs of jeans?",
+        "answer": "112",
+        "log_difference": 16.021106719970703
+    },
+    {
+        "dataset_idx": 3327,
+        "question": "Tom spends $250 to buy gems in a game he plays.  The game gives 100 gems for each dollar you spend.  Since he bought so many gems he got a 20% bonus of more gems. How many gems did he end up with?",
+        "answer": "30000",
+        "log_difference": 14.849068641662598
+    }
+]

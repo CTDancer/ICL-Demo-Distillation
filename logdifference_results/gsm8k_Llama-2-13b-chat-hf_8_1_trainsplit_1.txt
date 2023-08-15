@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 7239,
+        "question": "Scout delivers groceries on the weekends.  His base pay is $10.00 an hour.  He also earns a $5.00 tip per customer that he delivers groceries to.  On Saturday he worked 4 hours and delivered groceries to 5 people.  Sunday he worked 5 hours and delivered groceries to 8 people.  How much did he make over the weekend?",
+        "answer": "155",
+        "log_difference": 13.123143196105957
+    },
+    {
+        "dataset_idx": 5725,
+        "question": "Tim buys a book of esoteric words.  He learns 10 words from it a day.  In 2 years the book has increased the number of words he knows by 50%.  How many words did he know originally?",
+        "answer": "14600",
+        "log_difference": 14.301431655883789
+    },
+    {
+        "dataset_idx": 3086,
+        "question": "A retail store wants to hire 50 new phone reps to assist with the increased call volume that they will experience over the holiday.  Each phone rep will work 8 hours a day and will be paid $14.00 an hour.  After 5 days, how much will the company pay all 50 new employees?",
+        "answer": "28000",
+        "log_difference": 13.394974708557129
+    },
+    {
+        "dataset_idx": 5601,
+        "question": "Macy's is selling shirts that have been reduced to $6.  This price is at 25% of the original price.  What was the original price?",
+        "answer": "24",
+        "log_difference": 12.93272876739502
+    },
+    {
+        "dataset_idx": 1919,
+        "question": "Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?",
+        "answer": "56000",
+        "log_difference": 14.644021987915039
+    },
+    {
+        "dataset_idx": 7278,
+        "question": "Mrs. Garcia pays her insurance quarterly at $378. How much does she pay in a year for her insurance?",
+        "answer": "1512",
+        "log_difference": 16.207992553710938
+    },
+    {
+        "dataset_idx": 7190,
+        "question": "A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?",
+        "answer": "208",
+        "log_difference": 17.622028350830078
+    },
+    {
+        "dataset_idx": 2942,
+        "question": "Gunther just financed a John Deere tractor through the dealership.  If his monthly payment is $150.00 a month, for 5 years, with no interest, how much did he finance the tractor for?",
+        "answer": "9000",
+        "log_difference": 15.701435089111328
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 3190,
+        "question": "Neil charges $5.00 to trim up each boxwood.  He charges $15.00 to trim it into a fancy shape.  The customer wants the entire 30 boxwood hedge trimmed up.  He has also asked for 4 specific boxwoods shaped into spheres.  How much will Neil charge?",
+        "answer": "210",
+        "log_difference": 3.576761245727539
+    },
+    {
+        "dataset_idx": 4386,
+        "question": "Jolene wants to raise some money to buy a bicycle.  She babysits for 4 families for $30 each.  She also washes 5 neighbors\u2019 cars for $12 each.  How much did she raise so far?",
+        "answer": "180",
+        "log_difference": 1.8930296897888184
+    },
+    {
+        "dataset_idx": 2461,
+        "question": "Tim's car goes down in value by $1000 a year.  He bought it for $20,000. How much is it worth after 6 years?",
+        "answer": "14000",
+        "log_difference": 3.2826881408691406
+    },
+    {
+        "dataset_idx": 3308,
+        "question": "Jason worked for 9 years as a bartender and 3 years and six months as a manager. How many months of work experience does he have total?",
+        "answer": "150",
+        "log_difference": 3.3269615173339844
+    },
+    {
+        "dataset_idx": 5680,
+        "question": "Ten percent of Jonessa's pay goes to paying tax. If her pay is $500, how much is her take-home pay?",
+        "answer": "450",
+        "log_difference": 2.606853485107422
+    },
+    {
+        "dataset_idx": 177,
+        "question": "James decides to replace his car.  He sold his $20,000 car for 80% of its value and then was able to haggle to buy a $30,000 sticker price car for 90% of its value.  How much was he out of pocket?",
+        "answer": "11000",
+        "log_difference": 3.0277366638183594
+    },
+    {
+        "dataset_idx": 93,
+        "question": "John orders food for a massive restaurant.  He orders 1000 pounds of beef for $8 per pound.  He also orders twice that much chicken at $3 per pound.  How much did everything cost?",
+        "answer": "14000",
+        "log_difference": 3.2396984100341797
+    },
+    {
+        "dataset_idx": 402,
+        "question": "A new movie gets released and makes $120 million in the box office for its opening weekend.  It ends up making 3.5 times that much during its entire run.  If the production company gets to keep 60%, how much profit did they make if the movie cost $60 million to produce?",
+        "answer": "192000000",
+        "log_difference": 4.433917999267578
+    }
+]

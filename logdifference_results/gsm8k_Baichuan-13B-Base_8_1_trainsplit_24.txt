@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 6649,
+        "question": "Charlie can make 5350 steps while running on a 3-kilometer running field. If he can run around the field 2 1/2 times during a running session, how many steps was he able to make?",
+        "answer": "13375",
+        "log_difference": 3.8870363235473633
+    },
+    {
+        "dataset_idx": 6414,
+        "question": "Each frog needs to eat 30 flies per day to live. Each fish needs to eat 8 frogs per day to live. Each gharial needs to eat 15 fish a day to live. How many flies get eaten every day in this swamp if it has 9 gharials?",
+        "answer": "32400",
+        "log_difference": 4.152270317077637
+    },
+    {
+        "dataset_idx": 1932,
+        "question": "To get admission into a school party, each football team member must pay $40. If there are 60 players on the football team and the entire team attends 8 such parties in a year, calculate the total amount of money collected in the 8 parties.",
+        "answer": "19200",
+        "log_difference": 5.666723728179932
+    },
+    {
+        "dataset_idx": 4307,
+        "question": "Mr. Maximilian has a rental building that he collects rent from every month. The number of units in the building is 100. If the building is 3/4 occupied for a whole year, and each resident of the building pays a rent of $400, calculate the amount of money Mr. Maximilian receives in that year.",
+        "answer": "360000",
+        "log_difference": 4.861579895019531
+    },
+    {
+        "dataset_idx": 4470,
+        "question": "Tim buys a cabinet for $1200 and gets a 15% discount.  How much did he pay?",
+        "answer": "1020",
+        "log_difference": 4.087772846221924
+    },
+    {
+        "dataset_idx": 2646,
+        "question": "John sends his son to prep school.  It cost $20,000 per semester.  There are 2 semesters in the year.  How much does it cost to send the kid to 13 years of school?",
+        "answer": "520000",
+        "log_difference": 3.9552478790283203
+    },
+    {
+        "dataset_idx": 6732,
+        "question": "Nancy's ex owes her child support. He's supposed to pay 30% of his income each year. For 3 years, he made $30,000/year, then he got a 20% raise for the next four years. If he's only ever paid $1,200, how much does he owe her?",
+        "answer": "69000",
+        "log_difference": 5.692353248596191
+    },
+    {
+        "dataset_idx": 6757,
+        "question": "Jerry files a lawsuit against the convenience store where he works and slipped and fell. He's asking for damages for loss of a $50,000 annual salary for 30 years, $200,000 in medical bills, and punitive damages equal to triple the medical and salary damages. If he gets 80% of what he's asking for, for much money does he get?",
+        "answer": "5440000",
+        "log_difference": 6.07562255859375
+    }
+]

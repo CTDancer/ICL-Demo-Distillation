@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_idx": 7190,
+        "question": "A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?",
+        "answer": "208",
+        "log_difference": 13.986103057861328
+    },
+    {
+        "dataset_idx": 3201,
+        "question": "A church has 100 members who've volunteered to bake cookies for the homeless in their local town. If each member baked 10 sheets of cookies, and each sheet has 16 cookies, calculate the total number of cookies the church members baked?",
+        "answer": "16000",
+        "log_difference": 13.081376075744629
+    },
+    {
+        "dataset_idx": 5725,
+        "question": "Tim buys a book of esoteric words.  He learns 10 words from it a day.  In 2 years the book has increased the number of words he knows by 50%.  How many words did he know originally?",
+        "answer": "14600",
+        "log_difference": 15.360604286193848
+    },
+    {
+        "dataset_idx": 402,
+        "question": "A new movie gets released and makes $120 million in the box office for its opening weekend.  It ends up making 3.5 times that much during its entire run.  If the production company gets to keep 60%, how much profit did they make if the movie cost $60 million to produce?",
+        "answer": "192000000",
+        "log_difference": 14.373175621032715
+    },
+    {
+        "dataset_idx": 5194,
+        "question": "Sean designs and sells patches.  He orders his patches in a unit of 100 and is charged $1.25 per patch.  If he turns around and sells all 100 patches for $12.00 each, what is his net profit?",
+        "answer": "1075",
+        "log_difference": 15.130638122558594
+    },
+    {
+        "dataset_idx": 1919,
+        "question": "Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?",
+        "answer": "56000",
+        "log_difference": 14.256989479064941
+    },
+    {
+        "dataset_idx": 3784,
+        "question": "Sally needs to make a tablecloth that measures 102 inches by 54 inches. She also needs to make 8 napkins that are 6 by 7 inches. How many square inches of material will Sally need to make the tablecloth and the 8 napkins?",
+        "answer": "5844",
+        "log_difference": 13.229100227355957
+    },
+    {
+        "dataset_idx": 5780,
+        "question": "Travis wants to fly to Australia. The regular tickets cost about $2000. As Travis is a student, he will get a 30% discount on this price. How much does he need to pay for his ticket?",
+        "answer": "1400",
+        "log_difference": 13.124382972717285
+    }
+]
