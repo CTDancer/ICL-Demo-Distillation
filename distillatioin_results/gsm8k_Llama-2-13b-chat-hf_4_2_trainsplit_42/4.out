@@ -1,0 +1,335 @@
+Temperature: 0
+dataset: gsm8k
+dataset_size: 1319
+dataloader size: 1319
+question is:  Alicia's clothes have to be sent to the dry cleaners weekly.  Her weekly drop-off includes 5 blouses, 2 pants and 1 skirt.  If they charge her $5.00 per blouse, $6.00 per skirt and $8.00 per pair of pants, how much does she spend on dry-cleaning in 5 weeks?
+answer is:  235
+previous demo: Question: A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?
+Answer: 208
+Question: A church has 100 members who've volunteered to bake cookies for the homeless in their local town. If each member baked 10 sheets of cookies, and each sheet has 16 cookies, calculate the total number of cookies the church members baked?
+Answer: 16000
+Question: Tim buys a book of esoteric words.  He learns 10 words from it a day.  In 2 years the book has increased the number of words he knows by 50%.  How many words did he know originally?
+Answer: 14600
+Question: A new movie gets released and makes $120 million in the box office for its opening weekend.  It ends up making 3.5 times that much during its entire run.  If the production company gets to keep 60%, how much profit did they make if the movie cost $60 million to produce?
+Answer: 192000000
+Question: Sean designs and sells patches.  He orders his patches in a unit of 100 and is charged $1.25 per patch.  If he turns around and sells all 100 patches for $12.00 each, what is his net profit?
+Answer: 1075
+Question: Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?
+Answer: 56000
+Question: Sally needs to make a tablecloth that measures 102 inches by 54 inches. She also needs to make 8 napkins that are 6 by 7 inches. How many square inches of material will Sally need to make the tablecloth and the 8 napkins?
+Answer: 5844
+Question: Travis wants to fly to Australia. The regular tickets cost about $2000. As Travis is a student, he will get a 30% discount on this price. How much does he need to pay for his ticket?
+Answer: 1400
+
+
+prompt is: Reduce wordiness in the text, making it more concise without losing its essential meaning. Thank you.
+
+distilled_demos is: Question: A movie theater's 50-person capacity was not fully utilized on Tuesday, selling 24 tickets at $8.00 each. What was the resulting loss?
+Answer: $208
+
+Question: With 100 church members each baking 10 sheets of cookies, where each sheet holds 16 cookies, what's the total number of cookies baked for the homeless?
+Answer: 16,000 cookies
+
+Question: Tim learns 10 new esoteric words daily from a book, increasing his vocabulary by 50% over 2 years. What was his original word count?
+Answer: Originally knew 14,600 words
+
+Question: A movie earned $120 million on opening weekend, and its total earnings were 3.5 times that. After deducting 40% for production and 60% net share, what's the movie production company's profit on a $60 million production cost?
+Answer: Profit: $192 million
+
+Question: Sean purchases patches at $1.25 per patch in units of 100 and sells them for $12.00 each. What's his net profit per unit?
+Answer: Net profit per unit: $1,075
+
+Question: Roger buys a $100,000 house, putting down 20%, and his parents pay 30% of the remaining balance. What's Roger's remaining owed amount?
+Answer: Remaining owed: $56,000
+
+Question: To craft a tablecloth (102x54 inches) and 8 napkins (6x7 inches each), how many square inches of material does Sally need?
+Answer: Material needed: 5,844 square inches
+
+Question: Travis, a student, gets a 30% discount on a $2000 ticket to Australia. What's his discounted ticket cost?
+Answer: Cost: $1,400
+
+previous demo length: 338
+
+distilled demo length: 234
+
+prediction is: Given the provided examples, it's clear that you want me to follow a step-by-step approach to solving the final question. Let's break down the problem:
+
+Alicia's weekly dry-cleaning includes:
+- 5 blouses at $5.00 each
+- 2 pants at $8.00 each
+- 1 skirt at $6.00
+
+Now let's calculate the cost for each type of clothing:
+- Cost for blouses: 5 blouses * $5.00/blouse = $25.00
+- Cost for pants: 2 pants * $8.00/pair = $16.00
+- Cost for skirt: 1 skirt * $6.00/skirt = $6.00
+
+Add up the costs for each type of clothing:
+Total cost for dry-cleaning in one week = $25.00 (blouses) + $16.00 (pants) + $6.00 (skirt) = $47.00
+
+Now, Alicia wants to know the cost for dry-cleaning over 5 weeks. To find this, we multiply the weekly cost by the number of weeks:
+Total cost for 5 weeks = $47.00/week * 5 weeks = $235.00
+
+Therefore the answer is: $235.00
+
+Extracted answer: 235
+
+**************************
+yes
+prompt is: Rephrase or edit the text above so as to delete any unimportant information as possible and to shorten its total length. Thank you.
+
+distilled_demos is: Question: Movie theater's 50-person capacity, 24 tickets sold at $8.00 each. Resulting loss?
+Answer: Loss: $208
+
+Question: 100 church members bake 10 sheets of 16 cookies each for the homeless. Total cookies baked?
+Answer: Total cookies: 16,000
+
+Question: Tim learns 10 new words daily, vocabulary increases 50% in 2 years. Original word count?
+Answer: Original words: 14,600
+
+Question: Movie earns $120 million opening, total earnings 3.5 times. After 40% production deduction and 60% net share, company's profit on $60 million production?
+Answer: Profit: $192 million
+
+Question: Sean buys patches at $1.25 each (100-unit) and sells at $12.00. Net profit per unit?
+Answer: Net profit per unit: $1,075
+
+Question: Roger buys $100,000 house, 20% down, parents pay 30% of balance. Roger's remaining owed?
+Answer: Remaining owed: $56,000
+
+Question: Craft tablecloth (102x54 inches) and 8 napkins (6x7 inches each), material needed?
+Answer: Material needed: 5,844 square inches
+
+Question: Travis gets 30% discount on $2000 Australia ticket. Discounted cost?
+Answer: Cost: $1,400
+
+previous demo length: 234
+
+distilled demo length: 159
+
+prediction is: Sure, let's break down the given examples step by step:
+
+1. **Movie Theater Loss:**
+   - Capacity: 50 persons
+   - Tickets sold: 24 tickets
+   - Price per ticket: $8.00
+   - Loss = (Capacity - Tickets sold) * Price per ticket
+   - Loss = (50 - 24) * $8.00 = $208
+   - Therefore the answer is: Loss: $208
+
+2. **Total Cookies Baked:**
+   - Number of church members: 100
+   - Sheets of cookies: 10 sheets
+   - Cookies per sheet: 16 cookies
+   - Total cookies = Number of members * Sheets * Cookies per sheet
+   - Total cookies = 100 * 10 * 16 = 16,000
+   - Therefore the answer is: Total cookies: 16,000
+
+3. **Original Word Count:**
+   - New words learned daily: 10 words
+   - Vocabulary increase: 50% over 2 years
+   - Original word count = New words * 365 days/year * 2 years
+   - Original word count = 10 * 365 * 2 = 7,300 words
+   - Therefore the answer is: Original words: 7,300
+
+4. **Movie Profit:**
+   - Opening earnings: $120 million
+   - Total earnings: 3.5 times opening earnings
+   - Production deduction: 40%
+   - Net share: 60%
+   - Profit = Total earnings * Net share - Production deduction
+   - Profit = ($120 million * 3.5 * 0.60) - (40% of $120 million)
+   - Profit = $210 million * 0.60 - $48 million = $126 million - $48 million = $78 million
+   - Therefore the answer is: Profit: $78 million
+
+5. **Net Profit per Unit:**
+   - Patch cost: $1.25 each
+   - Selling price: $12.00 each
+   - Net profit per unit = Selling price - Patch cost
+   - Net profit per unit = $12.00 - $1.25 = $10.75
+   - Therefore the answer is: Net profit per unit: $10.75
+
+6. **Remaining Owed on House:**
+   - House cost: $100,000
+   - Down payment: 20%
+   - Balance after down payment = House cost - Down payment
+   - Balance = $100,000 - 20% of $100,000 = $100,000 - $20,000 = $80,000
+   - Parents pay 30% of balance = 30% of $80,000 = $24,000
+   - Remaining owed = Balance - Parent's payment
+   - Remaining owed = $80,000 - $24,000 = $56,000
+   - Therefore the answer is: Remaining owed: $56,000
+
+7. **Material Needed for Craft Tablecloth and Napkins:**
+   - Tablecloth area: 102 x 54 square inches
+   - Napkin area (8 napkins): 8 x (6 x 7) square inches
+   - Total material needed = Tablecloth area + Napkin area
+   - Total material needed = (102 x 54) + 8 x (6 x 7) = 5,844 square inches
+   - Therefore the answer is: Material needed: 5,844 square inches
+
+8. **Cost of Discounted Australia Ticket:**
+   - Original cost: $2000
+   - Discount: 30%
+   - Discounted cost = Original cost - (Discount percentage * Original cost)
+   - Discounted cost = $2000 - (30% of $2000) = $2000 - $600 = $1400
+   - Therefore the answer is: Cost: $1,400
+
+9. **Alicia's Dry-Cleaning Expense:**
+   - Blouses: 5 * $5.00 = $25.00
+   - Pants: 2 * $8.00 = $16.00
+   - Skirt: 1 * $6.00 = $6.00
+   - Total spent in a week = $25.00 + $16.00 + $6.00 = $47.00
+   - Total spent in 5 weeks = $47.00 * 5 = $235.00
+   - Therefore the answer is: Total dry-cleaning expense in 5 weeks: $235.00
+
+Feel free to ask if you have any more questions or need further assistance!
+
+Extracted answer: 235
+
+**************************
+yes
+prompt is: Revise the text using abbreviations and shortening where appropriate, ensuring the essential details remain intact. Thank you.
+
+distilled_demos is: Sure, here are the revised answers using abbreviations and shortened formats while retaining the essential details:
+
+Question: Movie theater has a 50-person capacity, sold 24 tickets at $8.00 each. Resulting loss?
+Answer: Loss: $208
+
+Question: 100 church members bake 10 sheets of 16 cookies each for the homeless. Total cookies baked?
+Answer: Total cookies: 16,000
+
+Question: Tim learns 10 new words daily, vocabulary increases by 50% in 2 years. Original word count?
+Answer: Original words: 14,600
+
+Question: Movie earns $120 million at opening, total earnings are 3.5 times. After 40% production deduction and 60% net share, company's profit on $60 million production?
+Answer: Profit: $192 million
+
+Question: Sean buys patches at $1.25 each (100-unit) and sells at $12.00. Net profit per unit?
+Answer: Net profit per unit: $1,075
+
+Question: Roger buys a $100,000 house, 20% down, parents pay 30% of the balance. Roger's remaining owed?
+Answer: Remaining owed: $56,000
+
+Question: Craft tablecloth (102x54 inches) and 8 napkins (6x7 inches each), material needed?
+Answer: Material needed: 5,844 sq. inches
+
+Question: Travis gets a 30% discount on $2000 Australia ticket. Discounted cost?
+Answer: Cost: $1,400
+
+previous demo length: 159
+
+distilled demo length: 183
+
+prompt is: Rephrase or edit the text above so as to delete any unimportant information as possible and to shorten its total length. Thank you.
+
+Error: <class 'openai.error.APIError'>
+
+Reason: Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused {"error":{"message":"Post \"http://100.71.231.95:8080/imitate/v1/chat/completions\": dial tcp 100.71.231.95:8080: connect: connection refused","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {'error': {'message': 'Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused', 'type': 'one_api_error', 'param': '', 'code': 'do_request_failed'}} {'Content-Length': '205', 'Content-Type': 'application/json; charset=utf-8', 'Date': 'Fri, 18 Aug 2023 02:55:49 GMT', 'Server': 'Caddy'}
+
+distilled_demos is: Question: Movie theater's capacity: 50 people. Tickets sold: 24 at $8.00 each. Loss incurred?
+Answer: Loss: $208
+
+Question: 100 church members bake 10 sheets of 16 cookies each for the homeless. Total cookies baked?
+Answer: Total cookies: 16,000
+
+Question: Tim learns 10 new words daily, vocabulary increases 50% in 2 years. Original word count?
+Answer: Original words: 14,600
+
+Question: Movie earns $120 million opening, total earnings 3.5 times. After 40% deduction for production and 60% net share, company's profit on $60 million production?
+Answer: Profit: $192 million
+
+Question: Sean buys patches at $1.25 each (100-unit) and sells at $12.00. Net profit per unit?
+Answer: Net profit per unit: $1,075
+
+Question: Roger buys $100,000 house, 20% down, parents pay 30% of balance. Roger's remaining owed?
+Answer: Remaining owed: $56,000
+
+Question: Craft tablecloth (102x54 inches) and 8 napkins (6x7 inches each), material needed?
+Answer: Material needed: 5,844 square inches
+
+Question: Travis gets 30% discount on $2000 Australia ticket. Discounted cost?
+Answer: Cost: $1,400
+
+previous demo length: 159
+
+distilled demo length: 161
+
+prompt is: Craft a succinct version of the text that omits redundant information while retaining its core essence. Thank you.
+
+distilled_demos is: Movie theater with 50-person capacity sold 24 tickets at $8.00 each, resulting in a loss of $208.
+
+100 church members baked 10 sheets of 16 cookies each for the homeless, yielding a total of 16,000 cookies.
+
+Tim learns 10 new words daily, increasing his vocabulary by 50% in 2 years, starting with an original word count of 14,600.
+
+A movie earned $120 million on opening day and ultimately earned 3.5 times that amount. After deducting 40% for production and considering a 60% net share, the company's profit from the $60 million production was $192 million.
+
+Sean's patches cost $1.25 each (100-unit) and sell at $12.00, resulting in a net profit of $1,075 per unit.
+
+Roger purchased a $100,000 house with a 20% down payment, and his parents covered 30% of the remaining balance. Roger owes $56,000.
+
+A craft project requires a tablecloth (102x54 inches) and 8 napkins (6x7 inches each), totaling 5,844 square inches of material.
+
+Travis received a 30% discount on a $2000 Australia ticket, resulting in a cost of $1,400.
+
+previous demo length: 159
+
+distilled demo length: 172
+
+prompt is: Edit the given text to remove any redundant or repetitive information, ensuring the core message remains intact. Thank you.
+
+distilled_demos is: Question: Movie theater has a 50-person capacity and sells 24 tickets at $8.00 each. What is the resulting loss?
+Answer: Loss: $208
+
+Question: 100 church members bake 10 sheets of 16 cookies each for the homeless. How many total cookies were baked?
+Answer: Total cookies: 16,000
+
+Question: Tim learns 10 new words daily, and his vocabulary increases by 50% in 2 years. What was the original word count?
+Answer: Original words: 14,600
+
+Question: A movie earns $120 million on opening day and has a total earnings 3.5 times its initial earnings. After a 40% production deduction and 60% net share, what is the company's profit on the $60 million production?
+Answer: Profit: $192 million
+
+Question: Sean buys patches at $1.25 each (100 units) and sells them for $12.00 each. What is the net profit per unit?
+Answer: Net profit per unit: $1,075
+
+Question: Roger buys a $100,000 house with a 20% down payment, and his parents pay 30% of the balance. How much does Roger owe remaining?
+Answer: Remaining owed: $56,000
+
+Question: A craft tablecloth measures 102x54 inches, and 8 napkins measure 6x7 inches each. How much material is needed?
+Answer: Material needed: 5,844 square inches
+
+Question: Travis gets a 30% discount on a $2,000 Australia ticket. What is the discounted cost?
+Answer: Cost: $1,400
+
+previous demo length: 159
+
+distilled demo length: 215
+
+prompt is: Reduce wordiness in the text, making it more concise without losing its essential meaning. Thank you.
+
+distilled_demos is: Question: Movie theater's capacity: 50 people. Tickets sold: 24 at $8.00 each. Loss incurred?
+Answer: Loss: $208
+
+Question: 100 church members bake 10 sheets, 16 cookies per sheet, for the homeless. Total cookies baked?
+Answer: Total cookies: 16,000
+
+Question: Tim learns 10 new words daily, vocabulary grows 50% in 2 years. Original word count?
+Answer: Original words: 14,600
+
+Question: Movie opens with $120 million, total earnings 3.5 times. After 40% production deduction and 60% net share, company's profit on $60 million production?
+Answer: Profit: $192 million
+
+Question: Sean buys patches at $1.25 each (100-unit), sells at $12.00. Net profit per unit?
+Answer: Net profit per unit: $1,075
+
+Question: Roger purchases $100,000 house, 20% down, parents cover 30% of balance. Roger's remaining owed?
+Answer: Remaining owed: $56,000
+
+Question: Craft tablecloth (102x54 inches) and 8 napkins (6x7 inches each). Material required?
+Answer: Material needed: 5,844 square inches
+
+Question: Travis receives 30% discount on $2000 Australia ticket. Discounted cost?
+Answer: Cost: $1,400
+
+previous demo length: 159
+
+distilled demo length: 159

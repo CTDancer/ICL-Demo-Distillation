@@ -8,19 +8,38 @@ import utils
 
 def main():
     args = arg_parser()
+    print('*****************************')
+    print(args)
+    print('*****************************')
     utils.set_random_seed(args.random_seed)
     used_index = []
     done = False
+    select_prompt = True
     
     dataloader = utils.create_dataloader(args)
-    questions, answers = utils.get_qas(args.demo_path)
-    previous_demos = utils.get_demos(questions, answers)
-    initial_prompt = "Follow the given examples and answer the final question step by step. Note that the last sentence in your response can ONLY start with `Therefore the answer is:`\n"
+    if args.raw is True:
+        print(args.raw)
+        questions, answers = utils.get_qas(args.demo_path)
+        previous_demos = utils.get_demos(questions, answers)
+    else:
+        with open(args.demo_path, "r") as file:
+            previous_demos = file.read()
+            
+    initial_prompt = "Follow the given examples and answer the final question step by step.\
+        Note that the last sentence in your response can ONLY start with `Therefore the answer is:`, \
+        and provide the numerical answer to the final answer.\n"
     prompts = utils.get_prompts()
     question, answer = utils.sample(dataloader, args)
+    print("question is: ", question)
+    print("answer is: ", answer)
+    print(f"previous demo: {previous_demos}\n")
+    previous_length = len(previous_demos.split())
     
-    while not done:
-        prompt, used_index, done = utils.select_prompt(prompts, used_index, done)
+    while True:
+        prompt, done = utils.select_prompt(prompts, used_index, done)
+        if done:
+            break
+        print(f"prompt is: {prompt}\n")
         messages_for_distillation = [
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": (previous_demos + prompt)}
@@ -33,6 +52,13 @@ def main():
             time_interval=args.api_time_interval,
             temperature=args.temperature
         )
+        print(f"distilled_demos is: {distilled_demos}\n")
+        distilled_length = len(distilled_demos.split())
+        print(f"previous demo length: {previous_length}")
+        print(f"distilled demo length: {distilled_length}\n")
+        if distilled_length >= previous_length:
+            used_index.append(prompts.index(prompt))
+            continue
         # 将出现次数最多的答案当成预测结果
         predictions = []
         messages_for_inference = [
@@ -47,16 +73,34 @@ def main():
                 time_interval=args.api_time_interval,
                 temperature=args.temperature
             )
-            prediction = utils.answer_extraction(args, prediction)
+            print(f"prediction is: {prediction}\n")
+            prediction = utils.answer_extraction(args, prediction).lstrip()
+            print(f"Extracted answer: {prediction}\n")
             predictions.append(prediction)
+            print("**************************")
         prediction = max(predictions, key=predictions.count)
         # reward = utils.compute_distance(prediction, answer)
         # if reward > args.criterion:
         #     previous_demos = distilled_demos
         if prediction == answer:
+            print("yes")
             previous_demos = distilled_demos
+            previous_length = distilled_length
+        else:
+            used_index.append(prompts.index(prompt))
             
+    dest = os.path.join(args.save_path, args.demo_path.split('/')[-1])
+    if os.path.exists(dest):
+        with open(dest, "r") as file:
+            demos = file.read()
             
+        words_count = len(demos.split())
+    
+    if os.path.exists(dest) and words_count < previous_length:
+        print("It is not shorter than the previous distilled version.")
+    else:
+        with open(dest, "w") as file: 
+            file.write(previous_demos)
 
 def arg_parser():
     parser = argparse.ArgumentParser(description="Inference with selected prompts.")
@@ -68,7 +112,10 @@ def arg_parser():
         "--trainset_path", type=str, default="./dataset/GSM8K/train.jsonl", help="prompts to use"
     )
     parser.add_argument(
-        "--demo_path", type=str, default="./logdifference_results/gsm8k_baichuan7b_8-1_trainsplit-val.txt", help="prompts to use"
+        "--demo_path", type=str, default="./logdifference_results/gsm8k_baichuan7b_8-1_trainsplit-val.txt", help="path to demos"
+    )
+    parser.add_argument(
+        "--save_path", type=str, default="./distilled_demos", help="path to save demos"
     )
     parser.add_argument(
         "--model", type=str, default="gpt-3.5-turbo", help="model used for decoding."
@@ -96,6 +143,9 @@ def arg_parser():
     )
     parser.add_argument(
         "--use_code_style_prompt", type=bool, default=False, help='Use code-style prompt as mentioned in paper for last_letters dataset'
+    )
+    parser.add_argument(
+        "--raw", action='store_true', help='Use raw demonstrations or distilled demonstrations'
     )
 
     args = parser.parse_args()

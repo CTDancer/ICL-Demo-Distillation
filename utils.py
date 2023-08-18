@@ -57,7 +57,7 @@ def GPT3_request(model:str, input_prompt:list, max_tokens:int, time_interval, te
 
 def GPT3_5_request(model:str, messages:list, max_tokens:int, time_interval=2, temperature=0.7, stop=None):
     ''''''
-    API_KEY = ""    # for api.dqwang.group
+    API_KEY = "sk-AAMOOJ4kAVI8NeZKE066De9947874dF39aD8C804Dd89Be38"    # for api.dqwang.group
     resp = None
     done = False
     while not done:
@@ -86,6 +86,8 @@ def GPT3_5_request(model:str, messages:list, max_tokens:int, time_interval=2, te
                 print(f"Reason: {errno[1]}\n")
         # pause between each request to avoid rate limit
         time.sleep(time_interval)
+    
+    # print("response is: ", resp)
     return resp['choices'][0]['message']['content']
 
 
@@ -240,7 +242,7 @@ def create_input_prompt(args, qa_pairs, val_flag:bool)->str:
 
 def answer_extraction(args, responses):
     pred_ans = ""
-    temp = responses['choices'][0].text
+    temp = responses
     if args.dataset in ("gsm8k", "svamp", "asdiv", "addsub", "singleeq", "multiarith"):
         temp = temp.replace(",", "")
         temp = [s for s in re.findall(r'-?\d+\.?\d*', temp)]
@@ -327,7 +329,7 @@ def get_demos(questions=None, answers=None):
     
     demonstrations = ""
     for i in range(len(questions)):
-        demonstrations += ( "input: " + questions[i] + "\n" + "output: " + answers[i] + "\n" )
+        demonstrations += ( "Question: " + questions[i] + "\n" + "Answer: " + answers[i] + "\n" )
         
     return demonstrations
 
@@ -335,11 +337,15 @@ def get_prompts():
     ''' define the prompts for distillation '''
     
     prompts = []
-    prompts.append("Can you please help me rephrase or edit the text above so as to delete any unimportant information as possible and to shorten its total length? Thank you.")
+    prompts.append("Rephrase or edit the text above so as to delete any unimportant information as possible and to shorten its total length. Thank you.")
     
-    prompts.append("Edit the given text to remove any redundant or repetitive information, ensuring the core message remains intact.")
+    prompts.append("Edit the given text to remove any redundant or repetitive information, ensuring the core message remains intact. Thank you.")
     
-    prompts.append("Craft a succinct version of the given text that omits redundant information while retaining its core essence.")
+    prompts.append("Reduce wordiness in the text, making it more concise without losing its essential meaning. Thank you.")
+    
+    prompts.append("Craft a succinct version of the text that omits redundant information while retaining its core essence. Thank you.")
+    
+    prompts.append("Revise the text using abbreviations and shortening where appropriate, ensuring the essential details remain intact. Thank you.")
     
     return prompts
 
@@ -347,12 +353,12 @@ def select_prompt(prompts, used_index, done):
     ''' select a prompt from prompts '''
 
     candidates = [x for x in list(range(len(prompts))) if x not in used_index]
-    if candidates is []:
+    if len(candidates) == 0:
         done = True
-    index = random.choice(candidates)
-    used_index.append(index)
+        return None, done
     
-    return prompts[index], used_index, done
+    index = random.choice(candidates)    
+    return prompts[index], done
 
 def sample(dataloader, args):
     ''' randomly sample a question-answer pair from the dataloader '''

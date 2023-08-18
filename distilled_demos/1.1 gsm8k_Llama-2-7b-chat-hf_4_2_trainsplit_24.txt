@@ -1,0 +1,8 @@
+Question: Salesman buys 48 backpacks for $576, sells 17 at $18, 10 to store at $25 each, rest at $22 each. Profit? Ans: 442
+Question: Ursula earns $8.50/hr, works 8 hrs/day, 20 workdays/month. Annual salary? Ans: 16320
+Question: Bike price was $220, 15% increase. New price? Ans: 253
+Question: Room is 10 ft long, area in sq inches? Ans: 14400
+Question: Ruiz's $500 salary got 6% raise. New salary? Ans: 530
+Question: Jeans sell at $40, 10% off for 2 pairs. Price for 3 pairs? Ans: 112
+Question: Store has 50 reps, 8 hrs/day, $14.00/hr. After 5 days, total payment? Ans: 28000
+Question: Factory: 300 employees, 200 at $12/hr, 40 at $14/hr, rest at $17/hr. Cost for 8-hr shift? Ans: 31840

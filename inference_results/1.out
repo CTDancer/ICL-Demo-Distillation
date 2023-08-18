@@ -1,0 +1,275 @@
+Temperature: 0
+*****************************
+Namespace(random_seed=0, dataset='gsm8k', trainset_path='./dataset/GSM8K/train.jsonl', demo_path='./distilled_demos/gsm8k_Llama-2-13b-chat-hf_4_2_trainsplit_42.txt', selected_prompt_path_from_APS='./logdifference_results/gsm8k_k=10.txt', run_APS_baseline=False, APS_index=0, multiple_prompting_rounds=False, model='gpt-3.5-turbo', QA_dir='./QA_records/', wrong_list_dir='./wrong_lists/', max_length_cot=512, qes_limit=50, api_time_interval=2.0, temperature=0, max_tokens=1024, multipath=1, concat_length=4, use_code_style_prompt=False, dataset_path='./dataset/GSM8K/test.jsonl')
+*****************************
+dataset: gsm8k
+dataset_size: 1319
+dataloader size: 1319
+prediction is: Therefore the answer is: 16 miles.
+
+Extracted answer: 16
+Ground Truth: 16
+**************************
+Error: <class 'openai.error.APIError'>
+
+Reason: Post "http://100.98.92.28:8080/imitate/v1/chat/completions": dial tcp 100.98.92.28:8080: i/o timeout {"error":{"message":"Post \"http://100.98.92.28:8080/imitate/v1/chat/completions\": dial tcp 100.98.92.28:8080: i/o timeout","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {'error': {'message': 'Post "http://100.98.92.28:8080/imitate/v1/chat/completions": dial tcp 100.98.92.28:8080: i/o timeout', 'type': 'one_api_error', 'param': '', 'code': 'do_request_failed'}} {'Content-Length': '187', 'Content-Type': 'application/json; charset=utf-8', 'Date': 'Fri, 18 Aug 2023 03:48:55 GMT', 'Server': 'Caddy'}
+
+Error: <class 'openai.error.APIError'>
+
+Reason: Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused {"error":{"message":"Post \"http://100.71.231.95:8080/imitate/v1/chat/completions\": dial tcp 100.71.231.95:8080: connect: connection refused","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {'error': {'message': 'Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused', 'type': 'one_api_error', 'param': '', 'code': 'do_request_failed'}} {'Content-Length': '205', 'Content-Type': 'application/json; charset=utf-8', 'Date': 'Fri, 18 Aug 2023 03:48:57 GMT', 'Server': 'Caddy'}
+
+prediction is: Therefore the answer is: 240 sheets.
+
+Extracted answer: 240
+Ground Truth: 240
+**************************
+prediction is: Therefore the answer is: 80.
+
+Extracted answer: 80
+Ground Truth: 80
+**************************
+prediction is: Therefore the answer is: 15 years.
+
+Extracted answer: 15
+Ground Truth: 15
+**************************
+prediction is: Therefore the answer is: 91.
+
+Extracted answer: 91
+Ground Truth: 91
+**************************
+prediction is: Therefore the answer is: 22.
+
+Extracted answer: 22
+Ground Truth: 22
+**************************
+prediction is: Therefore the answer is: 8.
+
+Extracted answer: 8
+Ground Truth: 8
+**************************
+prediction is: Therefore the answer is: Jasper has 2 tubes of blue paint and 9 tubes of yellow paint.
+
+Extracted answer: 9
+Ground Truth: 11
+**************************
+prediction is: Therefore, the answer is: Elaina's usual concerts run for 25 minutes.
+
+Extracted answer: 25
+Ground Truth: 25
+**************************
+prediction is: Therefore the answer is: $482.
+
+Extracted answer: 482
+Ground Truth: 482
+**************************
+prediction is: Therefore the answer is: $4.
+
+Extracted answer: 4
+Ground Truth: 4
+**************************
+prediction is: Therefore the answer is: $14.00
+
+Extracted answer: 14
+Ground Truth: 14
+**************************
+prediction is: Therefore the answer is: $12.00
+
+Extracted answer: 12
+Ground Truth: 18
+**************************
+prediction is: Therefore the answer is: 12 novels.
+
+Extracted answer: 12
+Ground Truth: 12
+**************************
+Error: <class 'openai.error.APIError'>
+
+Reason: Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused {"error":{"message":"Post \"http://100.71.231.95:8080/imitate/v1/chat/completions\": dial tcp 100.71.231.95:8080: connect: connection refused","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {'error': {'message': 'Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused', 'type': 'one_api_error', 'param': '', 'code': 'do_request_failed'}} {'Content-Length': '205', 'Content-Type': 'application/json; charset=utf-8', 'Date': 'Fri, 18 Aug 2023 03:50:48 GMT', 'Server': 'Caddy'}
+
+prediction is: Therefore, Alex will need 318 seats for all the invited people.
+
+Extracted answer: 318
+Ground Truth: 319
+**************************
+prediction is: Therefore the answer is: 2 trays.
+
+Extracted answer: 2
+Ground Truth: 2
+**************************
+prediction is: Therefore the answer is: $72.
+
+Extracted answer: 72
+Ground Truth: 72
+**************************
+prediction is: Therefore the answer is: $9,500.
+
+Extracted answer: 9500
+Ground Truth: 9500
+**************************
+prediction is: Therefore the answer is: $15.
+
+Extracted answer: 15
+Ground Truth: 15
+**************************
+Error: <class 'openai.error.APIError'>
+
+Reason: Post "http://100.98.92.28:8080/imitate/v1/chat/completions": dial tcp 100.98.92.28:8080: i/o timeout {"error":{"message":"Post \"http://100.98.92.28:8080/imitate/v1/chat/completions\": dial tcp 100.98.92.28:8080: i/o timeout","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {'error': {'message': 'Post "http://100.98.92.28:8080/imitate/v1/chat/completions": dial tcp 100.98.92.28:8080: i/o timeout', 'type': 'one_api_error', 'param': '', 'code': 'do_request_failed'}} {'Content-Length': '187', 'Content-Type': 'application/json; charset=utf-8', 'Date': 'Fri, 18 Aug 2023 03:52:04 GMT', 'Server': 'Caddy'}
+
+prediction is: Therefore the answer is: 54 minutes.
+
+Extracted answer: 54
+Ground Truth: 54
+**************************
+prediction is: Therefore the answer is: $2390.
+
+Extracted answer: 2390
+Ground Truth: 170
+**************************
+prediction is: Therefore the answer is: 160 flowers.
+
+Extracted answer: 160
+Ground Truth: 160
+**************************
+prediction is: Therefore the answer is: $240.
+
+Extracted answer: 240
+Ground Truth: 42
+**************************
+prediction is: Therefore the answer is: 1800 miles.
+
+Extracted answer: 1800
+Ground Truth: 60
+**************************
+prediction is: Therefore the answer is: 98 pens.
+
+Extracted answer: 98
+Ground Truth: 98
+**************************
+prediction is: Therefore the answer is: 4 logs.
+
+Extracted answer: 4
+Ground Truth: 4
+**************************
+prediction is: Therefore the answer is: 6,277 kids.
+
+Extracted answer: 6277
+Ground Truth: 6277
+**************************
+prediction is: Therefore the answer is: 50 days.
+
+Extracted answer: 50
+Ground Truth: 50
+**************************
+prediction is: Therefore the answer is: 8 centimeters.
+
+Extracted answer: 8
+Ground Truth: 8
+**************************
+prediction is: Therefore the answer is: 68 degrees.
+
+Extracted answer: 68
+Ground Truth: 68
+**************************
+prediction is: Therefore the answer is: $2.00.
+
+Extracted answer: 2
+Ground Truth: 2
+**************************
+prediction is: Therefore the answer is: 110 people.
+
+Extracted answer: 110
+Ground Truth: 110
+**************************
+prediction is: Therefore the answer is: 1800 reports.
+
+Extracted answer: 1800
+Ground Truth: 360
+**************************
+prediction is: Therefore the answer is: Daisy bought 7 pounds of carrots.
+
+Extracted answer: 7
+Ground Truth: 7
+**************************
+prediction is: Therefore the answer is: 14.
+
+Extracted answer: 14
+Ground Truth: 14
+**************************
+prediction is: Therefore the answer is: Azibo scored 5 points.
+
+Extracted answer: 5
+Ground Truth: 5
+**************************
+prediction is: Therefore the answer is: 491 times.
+
+Extracted answer: 491
+Ground Truth: 1509
+**************************
+prediction is: Therefore the answer is: $6.
+
+Extracted answer: 6
+Ground Truth: 6
+**************************
+prediction is: Therefore the answer is: 410 feet.
+
+Extracted answer: 410
+Ground Truth: 410
+**************************
+prediction is: Therefore the answer is: $90
+
+Extracted answer: 90
+Ground Truth: 90
+**************************
+prediction is: Therefore the answer is: 12 years.
+
+Extracted answer: 12
+Ground Truth: 12
+**************************
+prediction is: Therefore the answer is: $9,860.58
+
+Extracted answer: 9861
+Ground Truth: 7400
+**************************
+prediction is: Since the excess weight is negative, it means they haven't exceeded the maximum load. Therefore the answer is: 0 kg.
+
+Extracted answer: 0
+Ground Truth: 20
+**************************
+prediction is: Therefore the answer is: 8 slices.
+
+Extracted answer: 8
+Ground Truth: 8
+**************************
+prediction is: Therefore the answer is: 84.
+
+Extracted answer: 84
+Ground Truth: 84
+**************************
+prediction is: Therefore the answer is: Jeff gets 80 dollars.
+
+Extracted answer: 80
+Ground Truth: 80
+**************************
+prediction is: Therefore the answer is: 144 fruits.
+
+Extracted answer: 144
+Ground Truth: 168
+**************************
+prediction is: Therefore the answer is: 45 years old.
+
+Extracted answer: 45
+Ground Truth: 45
+**************************
+prediction is: Therefore the answer is: $12.
+
+Extracted answer: 12
+Ground Truth: 12
+**************************
+prediction is: Therefore the answer is: 30 students.
+
+Extracted answer: 30
+Ground Truth: 30
+**************************
+Total correct number: 39
+Percentage: 0.7647058823529411%

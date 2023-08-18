@@ -1,0 +1,349 @@
+Temperature: 0
+dataset: gsm8k
+dataset_size: 1319
+dataloader size: 1319
+question is:  Alicia's clothes have to be sent to the dry cleaners weekly.  Her weekly drop-off includes 5 blouses, 2 pants and 1 skirt.  If they charge her $5.00 per blouse, $6.00 per skirt and $8.00 per pair of pants, how much does she spend on dry-cleaning in 5 weeks?
+answer is:  235
+previous demo: Question: A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?
+Answer: 208
+Question: A church has 100 members who've volunteered to bake cookies for the homeless in their local town. If each member baked 10 sheets of cookies, and each sheet has 16 cookies, calculate the total number of cookies the church members baked?
+Answer: 16000
+Question: Tim buys a book of esoteric words.  He learns 10 words from it a day.  In 2 years the book has increased the number of words he knows by 50%.  How many words did he know originally?
+Answer: 14600
+Question: A new movie gets released and makes $120 million in the box office for its opening weekend.  It ends up making 3.5 times that much during its entire run.  If the production company gets to keep 60%, how much profit did they make if the movie cost $60 million to produce?
+Answer: 192000000
+Question: Sean designs and sells patches.  He orders his patches in a unit of 100 and is charged $1.25 per patch.  If he turns around and sells all 100 patches for $12.00 each, what is his net profit?
+Answer: 1075
+Question: Roger bought a house for $100,000.  He was able to pay 20% down, and his parents paid off an additional 30% of the remaining balance.  How much money does Roger still owe on his house?
+Answer: 56000
+Question: Sally needs to make a tablecloth that measures 102 inches by 54 inches. She also needs to make 8 napkins that are 6 by 7 inches. How many square inches of material will Sally need to make the tablecloth and the 8 napkins?
+Answer: 5844
+Question: Travis wants to fly to Australia. The regular tickets cost about $2000. As Travis is a student, he will get a 30% discount on this price. How much does he need to pay for his ticket?
+Answer: 1400
+
+
+prompt is: Reduce wordiness in the text, making it more concise without losing its essential meaning. Thank you.
+
+distilled_demos is: Question: A movie theater with a 50-person capacity charges $8.00 per ticket. On a Tuesday, they sold only 24 tickets. How much money did they lose by not selling out?
+Answer: $208
+
+Question: A church's 100 members volunteered to bake cookies for the homeless. Each member baked 10 sheets of cookies, with 16 cookies per sheet. How many cookies did they bake in total?
+Answer: 16,000
+
+Question: Tim learns 10 words daily from a book of esoteric words. Over 2 years, the book increases his vocabulary by 50%. How many words did he originally know?
+Answer: 14,600
+
+Question: A movie earns $120 million in its opening weekend and 3.5 times that overall. With a 60% profit share, how much profit did the production company make from a $60 million production cost?
+Answer: $192 million
+
+Question: Sean orders patches in units of 100 at $1.25 per patch, then sells all 100 for $12.00 each. What is his net profit?
+Answer: $1,075
+
+Question: Roger's $100,000 house is bought with a 20% down payment, and his parents pay 30% of the remaining balance. How much does Roger owe now?
+Answer: $56,000
+
+Question: Sally makes a 102x54 inch tablecloth and 8 napkins, each 6x7 inches. How much material (in square inches) does she need?
+Answer: 5,844
+
+Question: Travis, a student, gets a 30% discount on a regular $2000 ticket to Australia. How much does he pay?
+Answer: $1,400
+
+previous demo length: 338
+distilled demo length: 234
+
+prediction is: Let's break down the problem step by step:
+
+Alicia's weekly drop-off includes:
+- 5 blouses at $5.00 each
+- 2 pants at $8.00 each
+- 1 skirt at $6.00
+
+Calculating the cost for each item:
+- Cost of blouses: 5 blouses * $5.00/blouse = $25.00
+- Cost of pants: 2 pants * $8.00/pair = $16.00
+- Cost of skirt: 1 skirt * $6.00/skirt = $6.00
+
+Now, let's calculate the total cost for Alicia's weekly dry-cleaning drop-off:
+Total cost = Cost of blouses + Cost of pants + Cost of skirt
+Total cost = $25.00 + $16.00 + $6.00 = $47.00
+
+Since Alicia needs to send her clothes to the dry cleaners weekly, let's find out how much she spends on dry-cleaning in 5 weeks:
+Total cost for 5 weeks = 5 weeks * $47.00/week
+Total cost for 5 weeks = $235.00
+
+Therefore the answer is: $235.00
+
+Extracted answer: 235
+
+**************************
+yes
+prompt is: Rephrase or edit the text above so as to delete any unimportant information as possible and to shorten its total length. Thank you.
+
+distilled_demos is: Sure, here are the concise answers to your questions:
+
+1. Lost money: $208
+2. Cookies baked: 16,000
+3. Tim's original vocabulary: 14,600
+4. Production company's profit: $192 million
+5. Sean's net profit: $1,075
+6. Roger's remaining balance: $56,000
+7. Material needed: 5,844 sq. in.
+8. Travis pays: $1,400
+
+previous demo length: 234
+distilled demo length: 48
+
+prediction is: Let's break down the problem step by step:
+
+Alicia's weekly drop-off includes:
+- 5 blouses
+- 2 pants
+- 1 skirt
+
+The dry-cleaning costs per item are:
+- Blouse: $5.00
+- Skirt: $6.00
+- Pants: $8.00
+
+Now, let's calculate the cost for each type of item:
+- Cost for 5 blouses: 5 blouses * $5.00/blouse
+- Cost for 2 pants: 2 pants * $8.00/pair of pants
+- Cost for 1 skirt: 1 skirt * $6.00/skirt
+
+Now add up these individual costs to get the total weekly cost for Alicia's dry-cleaning.
+
+After finding the total weekly cost, we can multiply it by 5 weeks to get the total cost for 5 weeks.
+
+Let's perform the calculations:
+
+1. Cost for 5 blouses: 5 * $5.00 = $25.00
+2. Cost for 2 pants: 2 * $8.00 = $16.00
+3. Cost for 1 skirt: 1 * $6.00 = $6.00
+
+Total weekly cost: $25.00 + $16.00 + $6.00 = $47.00
+
+Total cost for 5 weeks: $47.00 * 5 = $235.00
+
+Therefore the answer is: $235.00.
+
+Extracted answer: 235
+
+**************************
+yes
+prompt is: Revise the text using abbreviations and shortening where appropriate, ensuring the essential details remain intact. Thank you.
+
+distilled_demos is: Certainly, here are the shortened answers:
+
+1. Lost: $208
+2. Cookies: 16,000 baked
+3. Tim's vocab: 14,600 words
+4. Company profit: $192M
+5. Sean's net: $1,075
+6. Roger's balance: $56K
+7. Material: 5,844 sq. in.
+8. Travis pays: $1,400
+
+previous demo length: 48
+distilled demo length: 39
+
+prediction is: Sure, let's break down the information and calculate the total cost step by step:
+
+Alicia's weekly drop-off includes:
+- 5 blouses
+- 2 pants
+- 1 skirt
+
+Dry-cleaning costs:
+- Blouse: $5.00 each
+- Skirt: $6.00 each
+- Pants: $8.00 per pair
+
+Now let's calculate the cost for each type of clothing:
+- Cost for 5 blouses: 5 blouses * $5.00/blouse = $25.00
+- Cost for 2 pants: 2 pants * $8.00/pair = $16.00
+- Cost for 1 skirt: $6.00
+
+Adding up the individual costs:
+$25.00 + $16.00 + $6.00 = $47.00 per week
+
+Therefore, Alicia spends $47.00 on dry-cleaning every week.
+
+Now, to calculate the total cost for 5 weeks:
+Total cost for 5 weeks = Weekly cost * Number of weeks
+Total cost for 5 weeks = $47.00 * 5 = $235.00
+
+Therefore the answer is: $235.00
+
+Extracted answer: 235
+
+**************************
+yes
+prompt is: Rephrase or edit the text above so as to delete any unimportant information as possible and to shorten its total length. Thank you.
+
+distilled_demos is: Got it! Here's the condensed information:
+
+1. Lost: $208
+2. Cookies: 16,000 baked
+3. Tim's vocab: 14,600 words
+4. Company profit: $192M
+5. Sean's net: $1,075
+6. Roger's balance: $56K
+7. Material: 5,844 sq. in.
+8. Travis pays: $1,400
+
+previous demo length: 39
+distilled demo length: 39
+
+prompt is: Reduce wordiness in the text, making it more concise without losing its essential meaning. Thank you.
+
+Error: <class 'openai.error.APIError'>
+
+Reason: Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused {"error":{"message":"Post \"http://100.71.231.95:8080/imitate/v1/chat/completions\": dial tcp 100.71.231.95:8080: connect: connection refused","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {'error': {'message': 'Post "http://100.71.231.95:8080/imitate/v1/chat/completions": dial tcp 100.71.231.95:8080: connect: connection refused', 'type': 'one_api_error', 'param': '', 'code': 'do_request_failed'}} {'Content-Length': '205', 'Content-Type': 'application/json; charset=utf-8', 'Date': 'Fri, 18 Aug 2023 02:58:35 GMT', 'Server': 'Caddy'}
+
+distilled_demos is: Of course:
+
+1. Loss: $208
+2. Cookies: 16,000 made
+3. Tim's words: 14,600
+4. Profit: $192M
+5. Sean: $1,075
+6. Roger: $56K
+7. Material: 5,844 sq. in.
+8. Travis: $1,400
+
+previous demo length: 39
+distilled demo length: 30
+
+prediction is: Let's break down the costs step by step:
+
+1. Cost of dry-cleaning 5 blouses: 5 blouses * $5.00/blouse = $25.00
+2. Cost of dry-cleaning 2 pants: 2 pants * $8.00/pair of pants = $16.00
+3. Cost of dry-cleaning 1 skirt: 1 skirt * $6.00/skirt = $6.00
+
+Now, let's calculate the total cost for one week:
+
+Total cost for one week = Cost of blouses + Cost of pants + Cost of skirt
+Total cost for one week = $25.00 + $16.00 + $6.00 = $47.00
+
+Since Alicia goes to the dry cleaners weekly, we can now calculate her total spending over 5 weeks:
+
+Total spending in 5 weeks = Total cost for one week * 5 weeks
+Total spending in 5 weeks = $47.00 * 5 = $235.00
+
+Therefore the answer is: $235.00.
+
+Extracted answer: 235
+
+**************************
+yes
+prompt is: Craft a succinct version of the text that omits redundant information while retaining its core essence. Thank you.
+
+distilled_demos is: Certainly, here's a concise summary of the provided information:
+
+1. Loss: $208
+2. Cookies: 16,000 made
+3. Tim's words: 14,600
+4. Profit: $192M
+5. Sean: $1,075
+6. Roger: $56K
+7. Material: 5,844 sq. in.
+8. Travis: $1,400
+
+previous demo length: 30
+distilled demo length: 37
+
+prompt is: Reduce wordiness in the text, making it more concise without losing its essential meaning. Thank you.
+
+distilled_demos is: Sure:
+
+1. Loss: $208
+2. Cookies: 16,000 made
+3. Tim's words: 14,600
+4. Profit: $192M
+5. Sean: $1,075
+6. Roger: $56K
+7. Material: 5,844 sq. in.
+8. Travis: $1,400
+
+previous demo length: 30
+distilled demo length: 29
+
+prediction is: Let's break down the information given step by step:
+
+1. Loss: $208
+2. Cookies: 16,000 made
+3. Tim's words: 14,600
+4. Profit: $192M
+5. Sean: $1,075
+6. Roger: $56K
+7. Material: 5,844 sq. in.
+8. Travis: $1,400
+
+Now, let's calculate the cost of Alicia's dry-cleaning for 1 week:
+- 5 blouses: 5 blouses * $5.00/blouse = $25.00
+- 2 pants: 2 pants * $8.00/pair of pants = $16.00
+- 1 skirt: 1 skirt * $6.00/skirt = $6.00
+
+Total cost for 1 week: $25.00 + $16.00 + $6.00 = $47.00
+
+Alicia spends $47.00 on dry-cleaning each week.
+
+Now, to find out how much she spends on dry-cleaning in 5 weeks:
+- Weekly cost: $47.00
+- Number of weeks: 5
+
+Total cost for 5 weeks: $47.00 * 5 = $235.00
+
+Therefore the answer is: $235.00
+
+Extracted answer: 235
+
+**************************
+yes
+prompt is: Reduce wordiness in the text, making it more concise without losing its essential meaning. Thank you.
+
+distilled_demos is: Of course:
+
+1. Loss: $208
+2. Cookies: 16,000 baked
+3. Tim's words: 14,600
+4. Profit: $192M
+5. Sean: $1,075
+6. Roger: $56K
+7. Material: 5,844 sq. in.
+8. Travis: $1,400
+
+previous demo length: 29
+distilled demo length: 30
+
+prompt is: Revise the text using abbreviations and shortening where appropriate, ensuring the essential details remain intact. Thank you.
+
+distilled_demos is: Of course:
+
+1. Loss: $208
+2. Cookies: 16K made
+3. Tim's words: 14.6K
+4. Profit: $192M
+5. Sean: $1,075
+6. Roger: $56K
+7. Material: 5.8K sq. in.
+8. Travis: $1.4K
+
+previous demo length: 29
+distilled demo length: 30
+
+prompt is: Edit the given text to remove any redundant or repetitive information, ensuring the core message remains intact. Thank you.
+
+distilled_demos is: Of course, here's the edited version:
+
+1. Loss: $208
+2. Cookies made: 16,000
+3. Tim's words: 14,600
+4. Profit: $192M
+5. Sean earned: $1,075
+6. Roger's earnings: $56K
+7. Material used: 5,844 sq. in.
+8. Travis received: $1,400
+
+previous demo length: 29
+distilled demo length: 38
